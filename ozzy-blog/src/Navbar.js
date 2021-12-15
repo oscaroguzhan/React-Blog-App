@@ -1,10 +1,15 @@
 const Navbar = () => {
     return ( 
     <nav className="navbar">
-        <h1>CodeGuruOzzy Blog</h1>
+        <h1>CodeGuru<span id="logo_name">Ozzy</span> Blog</h1>
         <div className="links">
             <a href="/">Home</a>
-            <a href="/create">New Blog</a>
+            <a href="/create" style={{
+                color: "white",
+                backgroundColor: "#f1356d",
+                borderRadius : "5px",
+                padding: "4px"
+            }}>New Blog</a>
         </div>
     </nav>
     );
