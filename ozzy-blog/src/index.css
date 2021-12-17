@@ -36,3 +36,16 @@
   margin: 40px auto;
   padding:20px;
 }
+.blog-preview {
+  padding: 10px 16px;
+  margin: 10px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.6);
+}
+.blog-preview h3 {
+  font-size: 22px;
+  color:#f1356d;
+  margin-bottom: 8px;
+}
